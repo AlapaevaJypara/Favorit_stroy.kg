@@ -1,0 +1,28 @@
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+.container {
+  width: 1240px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.obj__banner-title {
+  width: 305px;
+  height: 46px;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  text-transform: uppercase;
+  color: #111f66;
+}
